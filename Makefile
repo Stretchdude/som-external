@@ -3,7 +3,7 @@ ARCH_lrd = arm-eabi arm-eabihf
 
 MAKE_TARGETS = $(foreach t,$(TARGETS_COMPONENT_$(1)), $(addprefix $(t)-,$(ARCH_$(1))))
 
-TARGETS = wilgate \
+TARGETS = ctcgate \
 	wb50n_legacy wb50n_rdvk wb45n_legacy \
 	wb40n_rdvk wb40n_rdvk_3_2 \
 	wb50n_sysd wb50nsd_sysd wb50nsd_sysd-wbx3 \
